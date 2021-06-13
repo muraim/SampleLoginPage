@@ -1,0 +1,33 @@
+{
+    "name": "SampleLoginPage",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Matthew",
+    "contributors": [],
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.14.0",
+        "@babel/preset-env": "^7.14.1",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.1.8"
+    },
+    "scripts": {
+        "ES6 -> ES5": "babel public/js/es6 --watch --presets babel-preset-env --out-dir public/js"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.924.0",
+        "babel-preset-react": "^6.24.1",
+        "babelify": "^10.0.0",
+        "bcrypt": "^5.0.1",
+        "bcryptjs": "^2.4.3",
+        "mock-aws-s3": "^4.0.2",
+        "nock": "^13.1.0",
+        "reactify": "^1.1.1"
+    }
+}
